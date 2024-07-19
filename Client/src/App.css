@@ -1,0 +1,91 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form button{
+  font-size: large;
+  
+}
+
+form input:focus{
+  outline: none;
+} */
+
+
+.HomePage-container{
+  width: 100vw;
+  height: 100vh;
+  /* display: flex;  
+
+  align-items: center;
+  justify-content: center; */
+  display: grid;
+  place-items: center;
+}
+
+.HomePage-container form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: max-content;
+  align-items: center;
+  justify-content: center; 
+}
+
+.HomePage-container form input{
+  font-size: 24px;
+  padding: 10px 10px; 
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+
+}
+
+.HomePage-container form button{
+  font-size: 16px;
+  padding: 10px 10px; 
+  margin: 10px;
+  cursor: pointer;
+  align-self: flex-end;
+}
